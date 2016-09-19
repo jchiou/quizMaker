@@ -1,0 +1,28 @@
+{
+  "name": "quizmaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel src -d compiled -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "express": "^4.14.0",
+    "install": "^0.8.1",
+    "npm": "^3.10.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-reorder": "^2.1.0",
+    "webpack": "^1.13.2"
+  }
+}
